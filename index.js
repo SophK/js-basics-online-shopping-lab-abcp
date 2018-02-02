@@ -21,8 +21,12 @@ function addToCart(item) {
 
 function viewCart() {
   
-  const 1 = cart.length;
+  const i = cart.length;
   
+  if ( i = 0 ) {
+    return 
+    
+  }
   
   
 }
