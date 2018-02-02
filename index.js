@@ -30,7 +30,7 @@ function viewCart() {
 var itemsAndPrices = [];
 
 for (let x=0; x < i; x += 1) {
-  let itemsAndPrice = cart[];
+  let itemsAndPrice = cart[x];
   let item = Object.keys(itemsAndPrice)[0];
   let price = itemsAndPrice[item];
   
