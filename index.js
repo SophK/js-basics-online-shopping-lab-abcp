@@ -34,8 +34,7 @@ for (x=0; x < i; x += 1) {
   let item = Object.keys(itemsAndPrice)[0];
   let price = itemsAndPrice[item];
   
-  itemsAndPrices.push()
-  
+  itemsAndPrices.push(`${item} at \$${price}`);
 }
 }
 
