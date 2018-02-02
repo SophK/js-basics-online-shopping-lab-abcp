@@ -48,7 +48,7 @@ for (let x=0; x < i; x += 1) {
       itemsAndPrices = itemsAndPrices.join(", ");
   }
 
-  console.log(`In your cart, you have ${itemsAndPrices}.`);
+ return console.log(`In your cart, you have ${itemsAndPrices}.`);
 
 
 
