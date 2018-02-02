@@ -23,20 +23,20 @@ return cart;
 }
 
 function viewCart() {
-  
-   if (cart.length >= 1 ) {
-     
-   var view = "In your cart, you have "
-   var array = []
-   for ( let i = 0; i < cart.length; i++) {
-    array.push(cart[i] + " at $" + value[i] + ".")
-   }
+  var message = "In your cart, you have ";
  
- return array; }
- else {
+  if (cart.length === 0) {
    
-   return "Your shopping cart is empty.";
+                return "Your shopping cart is empty.";
    
+      }  else {  
+  
+          for ( var num = 1; num <= cart.length; num+= 1 ) {
+     
+              message += cart[num] + ', '
+     
+                           }
+           return message
  }
  
  
