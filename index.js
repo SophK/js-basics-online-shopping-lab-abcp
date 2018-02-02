@@ -19,6 +19,17 @@ function addToCart(item) {
   return cart;
 }
 
+function viewCart() {
+  
+  const 1 = cart.length;
+  
+  
+  
+}
+
+
+
+
 function total() {
   // write your code here
 }
